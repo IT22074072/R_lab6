@@ -52,3 +52,9 @@ freq
 mean(temp[month=="sep"])
 
 
+#Q13
+#On which day have they measured most observations 
+#during month of July
+count <- table(day[month=="jul"])
+count
+names(count[count==max(count)])
