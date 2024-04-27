@@ -29,9 +29,20 @@ quantile(temp)[4]
 boxplot(data1$wind, main="boxplot for speed of wind", xlab="speed", horizontal=TRUE, outline=TRUE , outpch=8)
 #negatively skewed distributon
 
-#Q7 
-median(data1$temp)
 #Q8
+median(data1$temp)
+#Q9
 mean(wind)
 summary(wind)
 sd(wind)
+
+#Q10
+IQR(wind)
+
+#Q11
+#observations have measured during Friday in August
+#2 way frequency table for day and month
+freq <- table(day, month)
+freq
+#21
+
