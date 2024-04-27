@@ -46,3 +46,9 @@ freq <- table(day, month)
 freq
 #21
 
+
+#Q12
+#average temperature, during September
+mean(temp[month=="sep"])
+
+
