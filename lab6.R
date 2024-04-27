@@ -16,3 +16,13 @@ str(data1)
 #maximum and minimum wind speed
 max(wind)
 min(wind)
+
+#Q5-five number summary
+summary(temp)
+max(temp)
+min(temp)
+quantile(temp)[2]
+quantile(temp)[3]
+quantile(temp)[4]
+
+
