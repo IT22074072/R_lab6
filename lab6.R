@@ -29,3 +29,9 @@ quantile(temp)[4]
 boxplot(data1$wind, main="boxplot for speed of wind", xlab="speed", horizontal=TRUE, outline=TRUE , outpch=8)
 #negatively skewed distributon
 
+#Q7 
+median(data1$temp)
+#Q8
+mean(wind)
+summary(wind)
+sd(wind)
